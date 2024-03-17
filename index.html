@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Hairizuwan's Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body class="is-preload">
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="#" class="image avatar"><img src="images/newme.jpeg" alt="me" /></a>
+			<h1><strong>I am Hairi</strong>, dynamic Information <br />
+				Systems graduate with a vision <br />for digital transformation. <br />
+				</a></h1>
+		</div>
+	</header>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- One -->
+		<section id="one">
+			<header class="major">
+				<h2>MUHAMMAD HAIRIZWUAN BIN MUHAMAD KHAIR</h2>
+			</header>
+			<p>Motivated Junior Web Developer experienced in HTML, CSS, JavaScript, and responsive
+				design. Skilled in Bootstrap, jQuery, and collaborating with cross-functional teams. Seeking
+				to boost knowledge and expertise in detail-oriented high-quality code and to efficiently
+				coordinate the execution of development projects .</p>
+		</section>
+
+		<!-- additional -->
+		<section id="additional">
+			<h2>Work Experience</h2>
+			<div class="row">
+				<div class="experience">
+					<h3>Full-Stack Web Developer Trainee @ Salihin Group (Batu Caves)</h3>
+					<p><strong>March 2023 - July 2023</strong></p>
+					<ol class="roman">
+						<li>
+							<p>Developed E-Induction system for HR Team (Full stack).</p>
+							<ul>
+								<li>Improved existing code to quality-code based on team’s standards.</li>
+								<li>Debugged data entry errors with MySQL language (MongoDB).</li>
+								<li>Developed using PHP, SQL, HTML5, JavaScript, Node.js in MVC framework
+									(CodeIgniter3).</li>
+								<li>Designed database for E-Induction system from mapping database structure.</li>
+								<li>Worked in Agile methodology as a team.</li>
+								<li>Integrated with HR team to develop internal systems.</li>
+							</ul>
+						</li>
+						<li>
+							<p>Migrated collaborated company websites to <a href="https://digital.salihin.com.my/"
+									target="_blank">salihin.digital.com.my</a>.</p>
+							<ul>
+								<li>Migrated collaborated content using Microsoft Visual Studio.</li>
+								<li>Applied new UI/UX design interface into the new system.</li>
+								<li>Integrated with client regarding the UI/UX that implemented into the new system.
+								</li>
+								<li>Administered the system’s content.</li>
+							</ul>
+						</li>
+						<li>
+							<p>Debugged errors on Salihin Group Websites.</p>
+							<ul>
+								<li>Identified errors through browser’s element console and debugged the errors.</li>
+								<li>Applied appropriate methods such as using AJAX method for data entry errors.</li>
+								<li>Tested debugging using inspect element console method to identify redundant errors.
+								</li>
+								<li>Improved system responsiveness by reducing downtime with applicable methods such as
+									AJAX that enhance server performance.</li>
+								<li>Updated debugged pages into Salihin Digital’s Timesheet.</li>
+							</ul>
+						</li>
+						</ul>
+				</div>
+			</div>
+			<li class="button"><a href="././resume.pdf" download target="_blank">Download My Resume</a>
+			</li>
+			<!--<div>
+				<iframe src="././resume.pdf" width="100%" height="500px" frameborder="0"></iframe>
+			</div>-->
+		</section>
+
+		<!-- Two -->
+		<section id="two">
+			<h2>Recent Work</h2>
+			<div class="row">
+				<article class="work-item">
+					<h3>Snapshots of Front-End Work</h3>
+					<a href="images/snap1.JPG" class="image fit thumb"><img src="images/snap1.JPG" alt="" /></a>
+					<p>Integrated with client on developing new UI/UX for the collaborated webpage</p>
+					<p hidden><a href="images/snap2.JPG" class="image fit thumb"><img src="images/snap2.JPG" alt="" /></a>
+					</p>
+				</article>
+				<article class=" work-item">
+					<h3>Code snippet from E-Induction System (Internal project) for Salihin Group</h3>
+					<pre>
+						<code>
+$programme = '';
+if ($rs_all_programme):
+foreach ($rs_all_programme as $row):
+$programme .= '
+{
+data        : ' . json_encode($row['id']) . ', 
+title       : "' . $row['programme_name'] . '",
+	start       : "' . $row['start_date'] . '",
+end	        : "' . date('Y-m-d', strtotime($row['end_date'] . "+1 days")) . '",
+ color       : "#007480",
+ description : "' . (
+$row['programme_name']
+) .  '"
+},'
+?>					
+endforeach;
+endif;
+						</code>
+					</pre>
+					<p>This was for Dashboard's calendar code that GET data from user's enrolled courses</p>
+				</article>
+			</div>
+		</section>
+		<!-- Three -->
+		<section id="three">
+			<h2>Contact Me</h2>
+			<p>For any inquiries, please feel free to contact me using the details below. </p>
+			<div class="row">
+				<div class="col-12 col-4-small">
+					<ul class="labeled-icons">
+						<li>
+							<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+							No 02-1A, Jalan Mawar 3, Taman Tampoi Indah 2<br />
+							Johor Bharu, Johor 86800<br />
+							Malaysia
+						</li>
+						<li>
+							<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+							(+60) 017-8228852
+						</li>
+						<li>
+							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+							<a href="mailto:hairikhair@gmail.com">hairikhair@gmail.com</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/muhdhairizuwan/" class="icon brands fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+				<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+				<!--<li><a href="https://github.com/rontron99/Portfolio" class="icon brands fa-github"target="_blank"><span class="label">Github</span></a></li>
+				--><!--<li><a href="#" class="icon brands fa-dribbble"target="_blank"><span class="label">Dribbble</span></a></li>
+				<li><a href="#" class="icon solid fa-envelope"target="_blank"><span class="label">Email</span></a></li>
+				--></ul>
+			<ul class="copyright">
+				<li>&copy; By me</li>
+				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+	</footer>
+	<!--<div class="poptrox-overlay" style="position: fixed; left: 0px; top: 0px; z-index: 1000; width: 100%; height: 100%; text-align: center; cursor: pointer; opacity: 1;"><div style="display:inline-block;height:100%;vertical-align:middle;"></div><div style="position:absolute;left:0;top:0;width:100%;height:100%;background:#2c2c2c;opacity:0.85;filter:alpha(opacity=85);"></div><div class="poptrox-popup" style="display: inline-block; vertical-align: middle; position: relative; z-index: 1; cursor: auto; min-width: 200px; min-height: 100px; width: auto; height: auto;"><div class="loader" style="display: none;"></div><div class="pic" style="text-indent: 0px;"><img src="images/fulls/01.jpg" alt="" style="vertical-align: bottom; max-width: 255px; max-height: 742px;"></div><div class="caption" style="">Magna sed consequat tempus</div><span class="closer" style="cursor: pointer;"></span><div class="nav-previous" style=""></div><div class="nav-next" style=""></div></div></div>
+	-->
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
+<script>
+	$(document).ready(function() {
+    $('.thumb a').poptrox();
+});
+</script>
